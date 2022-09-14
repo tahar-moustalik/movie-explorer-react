@@ -1,0 +1,26 @@
+:root {
+  --bg-light: #f4f4f4;
+  --bg-dark: #262833;
+  --text-light: #262833;
+  --text-dark: #f4f4f4;
+}
+
+.lightMode {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+}
+
+.darkMode {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+.container {
+  margin-right: auto; /* 1 */
+  margin-left: auto; /* 1 */
+
+  max-width: 1200px; /* 2 */
+
+  padding-right: 10px; /* 3 */
+  padding-left: 10px; /* 3 */
+}

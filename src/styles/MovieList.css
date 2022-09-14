@@ -1,0 +1,14 @@
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 640px) {
+  .movieList {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+}
